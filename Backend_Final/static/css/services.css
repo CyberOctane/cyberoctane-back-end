@@ -1,0 +1,56 @@
+body {
+    background-color: #101315;
+}
+
+#service-body {
+    padding: 15vw 5% 5% 5%;
+}
+
+#service-head {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#service-head p {
+    margin: 8% 0;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: 50%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.service img {
+    width: 20vw;
+}
+
+.service h4 {
+    font-size: 3vh;
+    padding-top: 10%;
+}
+
+@media(min-width:768px) {
+    
+    #service-body {
+        padding-top: 10vh
+    }
+    
+    .service {
+        width: 590
+    }
+    
+    .service img {
+        width: 5%;
+    }
+}

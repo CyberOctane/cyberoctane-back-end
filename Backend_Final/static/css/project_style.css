@@ -1,0 +1,95 @@
+/* 
+    CYBEROCTANE.CSS v1.0
+    April 2019 
+    www.cyberoctane.com
+*/
+
+/* 
+    =====================
+    == Project Styling ==
+    =====================
+*/
+
+#navbar {
+    background-color: #101315;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+}
+
+#header-img {
+    height: 40vh;
+    padding-top: 10vw;
+    display: flex;
+    align-items: center;
+}
+
+#header-img img {
+    position: fixed;
+    z-index: -1;
+}
+
+#prjct-info {
+    height: 40vh;
+    width: 100%;
+    background-color: #101315;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#prjct-info h1 {
+    font-size: 8vw;
+}
+
+.prjct-dtails {
+    width: 100%;
+    padding: 0 10%;
+    display: flex;
+}
+
+.details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+#prjct-info h2 {
+    font-size: 3vw;
+    font-weight: 700;
+    letter-spacing: normal;
+    padding: 12% 0;
+}
+
+.title {
+    font-weight: 300;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+}
+
+img {
+    width: 100%;
+}
+
+@media (min-width:576px) {
+    
+    #header-img {
+        height: 80vh;
+        padding-top: 10vh;
+    }
+    
+    #prjct-info {
+        height: 80vh;
+    }
+
+}

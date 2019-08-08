@@ -1,0 +1,14 @@
+body {
+    background-color: #101315;
+}
+
+#hero {
+    padding-top: 10vw;
+}
+
+@media(min-width:768px) {
+    
+    #hero {
+        padding-top: 10vh;
+    }
+}

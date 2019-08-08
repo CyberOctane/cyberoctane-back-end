@@ -1,0 +1,63 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <title>CyberOctane | Digital Design Studio</title>
+</head>
+<body>
+
+    <!-- Top Bar -->
+   {% include 'partials/_top.html' %}
+
+    <!-- Body -->
+    {% include 'partials/_body.html' %}
+    
+    
+
+    {% block content %} {% endblock %}
+
+     <!-- Footer -->
+   {% include 'partials/_footer.html' %}
+
+     
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/84/three.min.js"></script>
+        <script src="{% static 'js/animation-01.js' %}"></script>
+        <script src="{% static 'js/script.js' %}"></script>
+
+    <!-- jQuery -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+
+    <!-- Popper.js -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <!-- Plugin JavaScript -->
+    <!-- Ionicons -->
+    <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
+    
+    <!-- Swiper 4.5.0 -->
+    <script src="{% static 'vendor/swiper/js/swiper.js' %}"></script>
+
+    <!-- Theme Scripts -->
+    <script src="{% static 'js/themeJS.js' %}"></script>
+    <script src="{% static 'vendor/swiper/js/swiper.js' %}"></script>
+
+</body>
+</html>
