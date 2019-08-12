@@ -26,7 +26,7 @@
 
 <div id="menu" class="section">
     <div id="menu-links">
-        <a href="#home" onclick="menuOp()" class="menu-item">
+        <a href="{% url 'index' %}" onclick="menuOp()" class="menu-item">
             <h3 class="plus">+</h3>
             <h1>HOME</h1>
             <h4>01</h4>
@@ -41,7 +41,7 @@
             <h1>SERVICES</h1>
             <h4>03</h4>
         </a>
-        <a href="projects.html" onclick="menuOp()" class="menu-item">
+        <a href="{% url 'projects' %}" onclick="menuOp()" class="menu-item">
             <h3 class="plus">+</h3>
             <h1>PROJECTS</h1>
             <h4>04</h4>
