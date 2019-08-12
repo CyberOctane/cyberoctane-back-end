@@ -1,5 +1,47 @@
+a {
+    color: #D6CE07; 
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
 h1 {
     font-family: 'Barlow Semi Condensed', sans-serif;
     font-weight: 900;
     font-size: 20vw;
+    text-align: center;
+}
+
+p {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: aliceblue;
+}
+
+#one {
+    font-weight: 100;
+}
+#two{
+    font-weight: 200;
+}
+#three {
+    font-weight: 300;
+}
+#four {
+    font-weight: 400;
+}
+#five {
+    font-weight: 500;
+}
+#six {
+    font-weight: 600;
+}
+#seven {
+    font-weight: 700;
+}
+#eight {
+    font-weight: 800;
+}
+#nine {
+    font-weight: 900;
 }
