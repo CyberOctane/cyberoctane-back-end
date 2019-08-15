@@ -1,0 +1,37 @@
+PROJECT FIELDS
+    project_id : int
+    project_name : char
+    project_client : char
+    project_role_1 : char
+    project_role_2 : char
+    project_role_3 : char
+    project_role_4 : char
+    project_link_1 : url
+    project_link_2 : url
+    project_link_3 : url
+    project_link_4 : url
+    project_cover_photo : image
+    is_published : boolean
+    is_featured : boolean
+    feature_pc_img : image
+    feature_mobile_img : image
+    project_img_all : image
+    project_img_1 : image
+    project_img_2 : image
+    project_img_3 : image
+    project_img_4 : image
+    project_img_5 : image
+    project_img_6 : image
+    project_img_7 : image
+    project_img_8 : image
+    project_img_9 : image
+    project_img_10 : image
+
+TEAM FIELDS
+    member_id : custom
+    member_first_name : char
+    member_last_name : char
+    member_designation_1 : char
+    member_designation_2 : char
+    member_designation_3 : char
+    member_photo : image
