@@ -27,6 +27,11 @@ PROJECT FIELDS
     project_img_9 : image
     project_img_10 : image
 
+
+CLIENT FIELDS
+    client_id : int
+    client_logo : image
+
 TEAM FIELDS
     member_id : custom
     member_first_name : char
