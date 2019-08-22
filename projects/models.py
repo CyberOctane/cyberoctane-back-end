@@ -1,7 +1,7 @@
 from django.db import models
 
 class project(models.Model):
-    project_id : models.IntegerField()
+    project_id : models.IntegerField(blank=False)
     project_name : models.CharField(max_length=200) 
     project_client : models.CharField(max_length=200)
     project_role_1 : models.CharField(max_length=200)
