@@ -1,7 +1,6 @@
 from django.db import models
 
 class member(models.Model):
-    member_id : models.CharField(max_length=10)
     member_first_name : models.CharField(max_length=100)
     member_last_name : models.CharField(max_length=100)
     member_designation_1 : models.CharField(max_length=100)
