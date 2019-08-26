@@ -83,6 +83,7 @@ DATABASES = {
         'NAME': 'cobackend',
         'USER' : 'postgres',
         'PASSWORD' : 'Cocacola@pgAdmin',
+        #'PASSWORD' : '7991',
         'HOST' : 'localhost'
     }
 }
@@ -132,4 +133,4 @@ STATICFILES_DIRS = [
 
 # Media Folder Settings
 MEDIA_ROOT = os.path.join(BASE_DIR, 'images')
-MEDIA_URL = '/media'
+MEDIA_URL = '/media/'

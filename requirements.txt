@@ -1,3 +1,6 @@
 django
 pylint
 autopep8
+psycopg2
+psycopg2-binary
+Pillow
